@@ -1,4 +1,4 @@
-# crypto-protect
+# Crypto Protect
 
 A simple app to be a bit more protected against crypto viruses.
 
