@@ -38,7 +38,6 @@
             this.stat_lbl_main = new System.Windows.Forms.ToolStripStatusLabel();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.lnk_GitHub = new System.Windows.Forms.LinkLabel();
-            this.lnk_Web = new System.Windows.Forms.LinkLabel();
             this.stat_main.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -116,25 +115,11 @@
             this.lnk_GitHub.VisitedLinkColor = System.Drawing.Color.Blue;
             this.lnk_GitHub.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnk_GitHub_LinkClicked);
             // 
-            // lnk_Web
-            // 
-            this.lnk_Web.AutoSize = true;
-            this.lnk_Web.LinkColor = System.Drawing.Color.Blue;
-            this.lnk_Web.Location = new System.Drawing.Point(57, 66);
-            this.lnk_Web.Name = "lnk_Web";
-            this.lnk_Web.Size = new System.Drawing.Size(46, 13);
-            this.lnk_Web.TabIndex = 7;
-            this.lnk_Web.TabStop = true;
-            this.lnk_Web.Text = "Website";
-            this.lnk_Web.VisitedLinkColor = System.Drawing.Color.Blue;
-            this.lnk_Web.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnk_Web_LinkClicked);
-            // 
             // frm_main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 112);
-            this.Controls.Add(this.lnk_Web);
             this.Controls.Add(this.lnk_GitHub);
             this.Controls.Add(this.stat_main);
             this.Controls.Add(this.btn_Uninstall);
@@ -162,7 +147,6 @@
         private System.Windows.Forms.ToolStripStatusLabel stat_lbl_main;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.LinkLabel lnk_GitHub;
-        private System.Windows.Forms.LinkLabel lnk_Web;
     }
 }
 

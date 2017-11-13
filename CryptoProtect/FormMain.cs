@@ -17,12 +17,6 @@ namespace CryptoProtect
             Process.Start(sInfo);
         }
 
-        private void lnk_Web_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            ProcessStartInfo sInfo = new ProcessStartInfo("https://tobihrbr.com/cryptoprotect");
-            Process.Start(sInfo);
-        }
-
         private void btn_Install_Click(object sender, System.EventArgs e)
         {
             try
