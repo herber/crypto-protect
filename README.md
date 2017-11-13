@@ -4,9 +4,15 @@ A simple app to be a bit more protected against crypto viruses.
 
 ## Usage
 
-### 1. Run Crypto Protect<br><br>![Run Crypto Protect](https://cldup.com/eoBirWW8ne.png)
+### 1. Run Crypto Protect
+Crypto Protect needs admin privileges to access your windows directory.
 
-### 2. Install<br>Choose from which crypto viruses want to be protected.<br><br>![Run Crypto Protect](https://cldup.com/RNZuxUZ7UC.png)
+![Run Crypto Protect](https://cldup.com/eoBirWW8ne.png)
+
+### 2. Install
+Choose from which crypto viruses want to be protected.
+
+![Run Crypto Protect](https://cldup.com/RNZuxUZ7UC.png)
 
 ### 3. Done! 🎉
 
